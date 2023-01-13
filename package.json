@@ -1,0 +1,23 @@
+{
+  "name": "ppt-template",
+  "version": "0.1.0",
+  "description": "Blazing ppt template with slidev",
+  "homepage": "https://github.com/godkun/ppt-template",
+  "license": "MIT",
+  "author": "godkun <godkun666@126.com>",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev",
+    "export": "slidev export",
+    "format": "prettier -w -u .",
+    "remote": "slidev --remote"
+  },
+  "dependencies": {
+    "@slidev/cli": "*",
+    "@slidev/theme-default": "*"
+  },
+  "devDependencies": {
+    "less": "^4.1.3",
+    "naive-ui": "^2.33.3"
+  }
+}
