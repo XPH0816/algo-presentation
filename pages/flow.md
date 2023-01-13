@@ -58,19 +58,19 @@
   function showDrawer(num) {
     if (num == 1) {
       show.value = true
-      url.value = 'http://localhost:3030/flow1.png'
+      url.value = '/flow1.png'
     } else if (num == 2) {
       show.value = true
-      url.value = 'http://localhost:3030/flow2.png'
+      url.value = '/flow2.png'
     } else if (num == 3) {
       show.value = true
-      url.value = 'http://localhost:3030/flow3.png'
+      url.value = '/flow3.png'
     } else if (num == 4) {
       show.value = true
-      url.value = 'http://localhost:3030/flow4.png'
+      url.value = '/flow4.png'
     } else if (num == 5) {
       show.value = true
-      url.value = 'http://localhost:3030/flow5.png'
+      url.value = '/flow5.png'
     }
   }
 

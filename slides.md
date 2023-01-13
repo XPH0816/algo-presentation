@@ -62,6 +62,9 @@ background: 'bg3.jpg'
 
 Show you how it works
 
+---
+src: ./pages/conclusion.md
+---
 
 ---
 layout: cover
