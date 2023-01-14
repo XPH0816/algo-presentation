@@ -4,6 +4,7 @@ const props = defineProps<{
   active: any
   title: string
   width: number
+  defaultWidth: number
 }>()
 emits: ['close']
 </script>
@@ -13,7 +14,7 @@ emits: ['close']
     <n-drawer
       :show="props.active"
       @click="$emit('close')"
-      :default-width="1400"
+      :default-width="props.defaultWidth"
       :width="props.width"
       resizable
     >

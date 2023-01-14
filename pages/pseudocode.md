@@ -82,3 +82,24 @@ Calculate Module (2)
     ENDFUNCTION
  End
 ```
+
+---
+
+# Pseudocode
+Write/Read Module
+
+```ts{all|2-5|7-12|all}
+Start 
+	FUNCTION saveToFile
+		Pass In: Address of user variable
+		WRITE User variable into disk
+	ENDFUNCTION
+		
+	FUNCTION readFromFile
+		READ User Records
+		FOR each of User Record
+			PRINT User Record
+		END LOOP
+	ENDFUNCTION
+End
+```
