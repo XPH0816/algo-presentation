@@ -27,7 +27,7 @@ v-motion
   </span>
 </div>
 
-[Source Code](https://author.uthm.edu.my/downloadfile/global-index-xqnervkbzwsyfqgpawzd-file-bmr.html)
+[Source Code](/BMR.c)
 
 ---
 src: ./pages/contents.md
