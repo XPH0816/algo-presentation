@@ -11,6 +11,8 @@ info: |
 
 drawings:
   persist: false
+# page transition
+transition: fade-out | slide-right
 css: unocss
 title: Algo Project
 ---
