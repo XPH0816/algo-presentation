@@ -9,7 +9,7 @@ const num = computed(() => {
 </script>
 
 <template>
-  <div v-if="![1, 2, $slidev.nav.total + 1].includes($slidev.nav.currentPage)">
+  <div v-if="![1, 2, $slidev.nav.total + 1].includes($slidev.nav.currentPage)" style="height: 0%;">
     <div class="top absolute top-0 right-0 p-2">Group 1</div>
     <div class="progress absolute top-0 left-0">
       <Progress :targetValue="num" />
