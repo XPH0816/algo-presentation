@@ -6,6 +6,8 @@ highlighter: shiki
 lineNumbers: false
 routerMode: 'hash'
 
+download: true
+
 info: |
   ## Algo Project
 
