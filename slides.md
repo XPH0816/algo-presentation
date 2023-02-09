@@ -7,6 +7,7 @@ lineNumbers: false
 routerMode: 'hash'
 
 download: true
+record: true
 
 info: |
   ## Algo Project
